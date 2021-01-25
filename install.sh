@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/zsh
 
 # 未定義な変数があったら途中で終了する
 set -u
