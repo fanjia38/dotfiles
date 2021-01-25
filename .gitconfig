@@ -1,0 +1,15 @@
+[user]
+	name = fanjia38
+	email = 38fanjia@gmail.com
+[filter "lfs"]
+        clean = git-lfs clean %f
+        smudge = git-lfs smudge %f
+        required = true
+[alias]
+	st = status
+	co = checkout
+	br = branch
+        pl = git fetch --tags --prune && git pull origin
+[fetch]
+	prune = true
+
