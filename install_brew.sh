@@ -14,42 +14,17 @@ brew upgrade
 
 
 formulas=(
-    asciinema
     bat
-    ctop
-    dat
-    exa
-    ffmpeg
-    fd
-    fish
-    gh
+    deno
+    docker-compose
     git
-    gitui
-    jrnl
-    mas
-    mysql
-    navi
-    nb
-    neovim
-    neofetch
-    nodebrew
-    nnn
-    pandoc
-    procs
-    poppler
-    pstree
-    sampler
-    sd
-    sqlite
-    starship
-    taskell
-    thefuck
-    tldr
-    tmux
-    tmuxinator
+    node
+    node-build
+    nodenv
+    tig
     tree
-    warp
     yarn
+    zsh
 )
 
 echo "brew tap"
@@ -63,51 +38,19 @@ done
 
 # install gui up
 casks=(
-    atom
     alfred
-    alacritty
-    appcleaner
-    biscuit
-    bitwarden
-    boostnote
-    cacher
-    cheatsheet
-    dash
     deepl
-    discord
     docker
-    drawio
-    dropbox
-    font-hack-nerd-font
-    gitkraken
-    grammarly
+    firefox
+    fork
     google-backup-and-sync
-    gyazo
-    hyperswitch
-    inkscape
+    google-chrome
     iterm2
-    julia
-    jetbrains-toolbox
-    kap
-    karabiner-elements
-    keycastr
-    mamp
-    notion
-    obs
-    papers
-    r
-    rectangle
-    skitch
-    skype
+    line
     slack
     spotify
-    steam
-    tickeys
-    visual-studio
     visual-studio-code
-    vrew
-    vlc
-    xmind
+    xcode
     zoom
 )
 
