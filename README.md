@@ -3,5 +3,12 @@
 ## install
 
 ```sh
-bash -c "$(curl -L raw.githubusercontent.com/fanjia38/dotfiles/master/install)"
+# brew install
+sh install_brew.sh
+
+git clone https://github.com/fanjia38/dotfiles.git
+cd dotfiles
+
+# set up
+sh install.sh
 ```
