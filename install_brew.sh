@@ -3,6 +3,9 @@
 echo "installing homebrew..."
 which brew >/dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# homebrew のパスを追加
+export PATH="$PATH:/opt/homebrew/bin/"
+
 echo "run brew doctor..."
 which brew >/dev/null 2>&1 && brew doctor
 

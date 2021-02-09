@@ -1,0 +1,47 @@
+{
+  /**********************************************
+   * Text Editor
+   **********************************************/
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  // "editor.fontFamily": "Menlo",
+  "editor.fontSize": 12,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.suggestSelection": "first",
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+
+  /**********************************************
+   * Workbench
+   **********************************************/
+  "workbench.colorTheme": "Monokai",
+
+  /**********************************************
+   * Window
+   **********************************************/  
+  "window.zoomLevel": 0,
+
+  /**********************************************
+   * Features
+   **********************************************/  
+  "terminal.integrated.rendererType": "dom",
+  // これはすでに自動で設定されてる
+  // "terminal.integrated.shell.linux": "/bin/zsh"
+
+  /**********************************************
+   * Extensions
+   **********************************************/  
+  // Node debug
+  "debug.node.showUseWslIsDeprecatedWarning": false,
+  // JavaScript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // TypeScript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // Visual Studio IntelliCode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // vscode-icons
+  "vsicons.dontShowNewVersionMessage": true
+}
