@@ -29,8 +29,8 @@
    * Features
    **********************************************/  
   "terminal.integrated.rendererType": "dom",
-// これはすでに自動で設定されてる
-//   "terminal.integrated.shell.linux": "/bin/zsh"
+  // これはすでに自動で設定されてる
+  // "terminal.integrated.shell.linux": "/bin/zsh"
 
   /**********************************************
    * Extensions
