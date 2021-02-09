@@ -22,5 +22,5 @@ sh install.sh
 2. select `Shell Command: Install 'code' command in PATH command.`
 3. run
   ```sh
-  sh install_extensions.sh
+  sh install.sh
   ```
