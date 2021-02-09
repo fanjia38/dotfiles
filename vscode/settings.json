@@ -24,6 +24,7 @@
   "editor.formatOnType": false,
   "workbench.colorTheme": "Monokai",
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "terminal.integrated.rendererType": "dom",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
