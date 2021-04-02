@@ -6,6 +6,7 @@
 # brew install
 sh install_brew.sh
 
+cd ~
 git clone https://github.com/fanjia38/dotfiles.git
 cd dotfiles
 
@@ -22,5 +23,6 @@ sh install.sh
 2. select `Shell Command: Install 'code' command in PATH command.`
 3. run
   ```sh
+  cd ~/dotfiles/vscode
   sh install.sh
   ```
