@@ -11,7 +11,7 @@
   "editor.formatOnSave": false,
   "editor.formatOnType": false,
   "editor.suggestSelection": "first",
-  "editor.guides.bracketPairs": "active"
+  "editor.guides.bracketPairs": "active",
   "files.autoSave": "onFocusChange",
   "files.trimTrailingWhitespace": true,
 
